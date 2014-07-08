@@ -1,13 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "Env Switch",
-    "description": "This extension switches the current tab between the three development environments.",
-    "version": "0.1",
+    "name": "Browser Environment Switcher",
+    "short_name": "Env Switch",
+    "version": "0.2",
+    "description": "This extension cycles the current tab between three development environments: local, staging, live, local, ...",
+    "icons": {
+        "16": "icon-19x19.png",
+        "128": "icon-128x128-padded8px.png"
+    },
     "permissions": [
         "activeTab"
     ],
     "browser_action": {
-        "default_icon": "icon.png",
+        "default_icon": "icon-19x19.png",
         "default_title": "Cycle between environments"
     },
     "background": {
